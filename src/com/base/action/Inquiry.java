@@ -41,6 +41,8 @@ public class Inquiry
 		int iStoreNo = 0;
     
 		logger.info("Mode type INQUIRY on voucher: " + sVoucherNo);
+		
+		if (true) logger.info("just printing");
     
 		Date dSystemDate = new Date();
 		SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
